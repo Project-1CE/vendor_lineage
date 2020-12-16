@@ -308,3 +308,8 @@ endif
 endif
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Gapps
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+endif
