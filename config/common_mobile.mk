@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
     Profiles \
     Seedvault
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    StitchImage
+
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
     TrebuchetQuickStepGo
